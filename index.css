@@ -1,0 +1,161 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(fondo.gif);
+    justify-content: center;
+
+}
+
+header {
+    background-image: url(header.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+
+
+button{
+  color: black;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+section {
+    margin: 40px;
+}
+
+h1{
+  font-size: 2.3rem;
+}
+
+h3{
+    text-align: center;
+}
+
+h2{
+  margin-left: 20%;
+  color: #fff;
+}
+
+footer {
+    background-color: rgb(23, 23, 23);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/*DIV PELICULAS*/
+
+.peliculas{
+  height: 350px;
+  width: 600px;
+  width: calc(36% - 8px);
+  background: rgb(23, 23, 23);
+  border: 5px solid;
+  border-image: url(marcofoto.gif) 2 round;
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+  text-align: justify;
+}
+
+
+.peliculas img{
+  height: 75%;
+  margin-left: 5%;
+  margin-right: 5%;
+  float: left;
+}
+
+
+.primeras {
+  justify-content: center;
+  max-width: 600%;
+  padding: 6px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+/*ESTRELLAS*/
+
+#form {
+    width: 250px;
+    margin: 0 auto;
+    height: 50px;
+  }
+  
+  #form {
+    text-align: left;
+  }
+  
+  #form label {
+    font-size: 20px;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  label {
+    color: grey;
+  }
+  
+  .clasificacion {
+    text-align: left;
+    direction: rtl;
+    margin-left: 13%;
+    }
+  
+  label:hover,
+  label:hover ~ label {
+    color: orange;
+  }
+  
+  
+  input[type="radio"]:checked ~ label {
+    color: orange;
+  }
+
+
+/* MENU LATERAL*/
+
+  .sidebar {
+    height: auto;
+    width: auto;
+    background-image: url(header.gif);
+    padding-top: 20px;
+    position: fixed;
+}
+
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    color: #fff;
+}
+
+.sidebar a:hover {
+    background-color: #000000;
+}
